@@ -4,11 +4,12 @@
 
 
 
-function happyBirthday(){
+function happyBirthday(username,age){
     console.log("happy birthafy to you");
     console.log("happy birthafy to you");
-    console.log("happy birthafy to you");
-    console.log("happy birthafy to you");
+    console.log(`happy birthafy to you ${username}`);
+    console.log(`you are ${age}`);
     
 }
-happyBirthday();
+happyBirthday("jagadeesh",25);
+happyBirthday("harish",22);
