@@ -40,7 +40,22 @@
 //------------------------------------------
 
 
-// Local Scope
+// Local Scope-function scope, nothung but inside of the function
 // Variables declared within a JavaScript function, are LOCAL to the function:
 // Local variables have Function Scope:
 // They can only be accessed from within the function.
+
+// example:
+// function myFunction(){
+//     let carName='volvo';
+// }
+
+----------------------------------------------------------------
+// GLOBAL ScOPE: nothing but, a varialbe declared outside of the function.
+//               all functions and scripts on a web page can access it.
+
+// example:
+// let carName = 'volvo';
+// function myFunction(){
+
+// }
