@@ -59,3 +59,25 @@
 // function myFunction(){
 
 // }
+
+
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+
+HOISTING: Defaut behaviour of javascript of moving declarations to the top level,
+          In js the a variable can be declared after it has been used, or a variable can be used before it has been declared
+
+example:
+x=5;
+elem=document.getElementById("demo");
+elem.innerHTML=x;
+var x;
+
+  or
+
+var x;
+x=5;
+elem.getElementById("demo");
+elem.innerHTML=x;
+
+for LET AND CONST keywords 
