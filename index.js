@@ -93,10 +93,18 @@
 
 //example:
 
-class Car{
+// class Car{
 
-constructor(name){
-    this.brand = name;
+// constructor(name){
+//     this.brand = name;
+// }
+// }
+// const mycar=new Car("Ford")
+
+
+
+//ARROW Function- ALLOW TO WRITE Shorter function syntax
+example:
+hello=()=>{
+    return "hello world";
 }
-}
-const mycar=new Car("Ford")
