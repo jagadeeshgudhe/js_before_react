@@ -90,13 +90,58 @@
 //classes, Arrow fnctions, Variables, array methods (map method), destructuring, modules, terenary operator, spread operator..
 
 //CLASSES-Type of function, instaed of using function keword we uses class, and the properties assigned into the constructor method().
-
 //example:
 
-class Car{
+// class Car{
+// constructor(name){
+//     this.brand = name;
+// }
+// }
+// const mycar=new Car("Ford")
+// document.write(mycar.brand)
 
-constructor(name){
-    this.brand = name;
-}
-}
-const mycar=new Car("Ford")
+
+//METHODS
+  
+// class Car{
+//     constructor(name){
+//         this.brand=name;
+
+//     }
+//     present(){
+//         return 'I have a '+this.brand;
+//     }
+// }
+// const mycar=new Car("ford")
+// mycar.present();
+
+//call the method by referring to the object's method name followed by parentheses (parameters would go inside the parentheses).
+
+
+//INHERITANCE
+//in javascript To create a class inheritance, use the extends keyword.
+
+// class car{
+//     constructor(name){
+//         this.brand = name;
+//     }
+
+// present(){
+//     return 'I have a '+this.brand
+    
+//     }
+// }
+
+// class Model extends Car {
+//     constructor(name,mod){
+//         super(name);   //super keyword refers to parent class, By calling the super() method in the constructor method, we call the parent's constructor method and get access to the parent's properties and methods.
+//         this.modal=mod;
+//     }
+//     show(){
+//         return this.present()+', it is a'+this.modal
+//     }
+// }
+// const mycar=new Model("ford", "mustang");
+// mycar.show();
+
+
