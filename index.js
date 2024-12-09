@@ -50,7 +50,7 @@
 //     let carName='volvo';
 // }
 
-----------------------------------------------------------------
+//----------------------------------------------------------------
 // GLOBAL ScOPE: nothing but, a varialbe declared outside of the function.
 //               all functions and scripts on a web page can access it.
 
@@ -82,3 +82,21 @@
 
 // for LET AND CONST keywords 
 // for let if declare a variable it throws a refernce error and for const it throws a syntax error
+
+
+
+
+// ES6 Features:
+//classes, Arrow fnctions, Variables, array methods (map method), destructuring, modules, terenary operator, spread operator..
+
+//CLASSES-Type of function, instaed of using function keword we uses class, and the properties assigned into the constructor method().
+
+//example:
+
+class Car{
+
+constructor(name){
+    this.brand = name;
+}
+}
+const mycar=new Car("Ford")
